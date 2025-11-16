@@ -1,0 +1,27 @@
+
+# Node / TypeScript
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+*.log
+
+# Build outputs
+dist
+coverage
+
+# Env files (don’t send secrets into build context)
+.env
+.env.local
+.env.*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.swp
+
+# Git
+.git
+.gitignore
